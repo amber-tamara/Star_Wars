@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Pathway Gothic One', sans-serif;
+}
+
+header {
+    height: 200px;
+    width: 100%;
+    background-color: black;
+}
+
+.title_background {
+    height: 150px;
+    width: 100%;
+    background-image: url("./imgs/starry_sky.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_title {
+    height: 70px;
+    margin-right: 17px;
+}
+
+.nav_wrapper {
+    border-top: 1px solid ;
+}
+
+nav {
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: pink;
+}
+
+nav > li {
+    padding: 14.8px 32px;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
